@@ -1,0 +1,256 @@
+/* Global styles */
+* {
+    background-color: #141414;
+    color: white;
+}
+i{
+    cursor: pointer;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    height: 715px;
+    overflow: hidden;
+}
+
+/* Navigation bar styles */
+.nav-bar {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 10;
+    margin-top: -10px;
+}
+
+.nav-bar i {
+    cursor: pointer;
+}
+
+#main-logo {
+    height: 38px;
+    width: 110px;
+    margin-top: 7px;
+}
+
+.tabs {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.tabs a {
+    opacity: 0.7;
+}
+
+a[title="Home"] {
+    opacity: 1;
+    font-weight: 600;
+}
+
+/* Left and right sections */
+.left {
+    display: flex;
+    width: 60%;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Font Awesome icons */
+.fa-solid,
+.fa-regular {
+    font-size: 22px;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.fa-bell {
+    position: relative;
+    display: inline-block;
+}
+
+.fa-bell::after {
+    content: '2';
+    position: absolute;
+    top: -11px;
+    right: -14px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.right a {
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#options {
+    margin: 5px;
+}
+
+/* Main content styles */
+#main-photo {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+    bottom: 600px;
+    left: 73px;
+    background: transparent;
+}
+
+/* Buttons and icons */
+.bt1 {
+    height: 43px;
+    width: 118px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.fa-play {
+    background-color: white;
+    color: black;
+}
+
+.bt2 {
+    height: 43px;
+    width: 160px;
+    background-color: #6d6d6eb3;
+    margin: 0px 11px 0px 11px;
+}
+
+.fa-circle-info {
+    background-color: #6d6d6eb3;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+/* Header button */
+header button {
+    position: relative;
+    bottom: 500px;
+    right: 582px;
+}
+
+/* Profile picture */
+.p {
+    height: 24px;
+    width: 24px;
+}
+
+/* List container styles */
+.list-container {
+    height: 260px;
+    width: 180px;
+    position: relative;
+    bottom: 1110px;
+    left: 1300px;
+    display: none;
+}
+
+.list-item {
+    margin: 15px;
+}
+
+.list-item img + a {
+    position: relative;
+    bottom: 5px;
+}
+
+/* Sign-out section */
+.sign-out {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Hover effect for list container */
+#he {
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+#he:hover .list-container {
+    display: block;
+}
+
+
+/* Main Tag*/
+.cards{
+    margin-bottom: 60px;
+    margin-left: 30px;
+    display: flex;
+}
+main h2{
+    margin-left: 30px;
+    font-weight: 600;
+}
+.card{
+    height: 128px;
+    width: 230px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/*Footer Tag*/
+ footer{
+    color: grey;
+    margin: 20px auto 0;
+    max-width: 980px;
+    padding: 0 4%;
+}
+.icon i{
+    margin-right: 15px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 20px;
+    margin-left: -40px;
+}
+table a, footer p{
+    opacity: 0.5;
+}
+.bt3{
+    opacity: 0.5;
+    border: 1px solid lightgray;
+    height: 30px;
+    cursor: pointer;
+}
+.bt3:hover{
+    opacity: 1;
+}
+table a:hover{
+    text-decoration: underline;
+}
+
