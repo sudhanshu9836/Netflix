@@ -206,9 +206,9 @@ header button {
 /* Main Tag*/
 .cards{
     margin-bottom: 60px;
-    margin-left: 30px;
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 main h2{
